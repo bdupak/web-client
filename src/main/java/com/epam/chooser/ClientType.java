@@ -2,6 +2,7 @@ package com.epam.chooser;
 
 public enum ClientType {
     CXF,
-    SOAP,
-    WS_IMPORT
+    SOAP_UI,
+    WS_IMPORT,
+    JERSEY
 }

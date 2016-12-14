@@ -1,11 +1,11 @@
-package com.epam.client.soap;
+package com.epam.client.soap.cxf;
 
 import com.epam.client.Client;
 
-public class SoapClient implements Client {
+public class CxfClient implements Client {
+
     @Override
     public Double add() {
-
         return null;
     }
 

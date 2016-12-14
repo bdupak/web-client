@@ -18,7 +18,7 @@ public class Result {
         this.result = value;
     }
 
-    public Double getValue(){
+    public Double getValue() {
         return result;
     }
 }

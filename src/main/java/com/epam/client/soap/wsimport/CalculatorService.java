@@ -1,13 +1,9 @@
-package com.epam.client.wsimport;
+package com.epam.client.soap.wsimport;
 
+import javax.xml.namespace.QName;
+import javax.xml.ws.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-import javax.xml.namespace.QName;
-import javax.xml.ws.Service;
-import javax.xml.ws.WebEndpoint;
-import javax.xml.ws.WebServiceClient;
-import javax.xml.ws.WebServiceException;
-import javax.xml.ws.WebServiceFeature;
 
 @WebServiceClient(name = "CalculatorService",
         targetNamespace = "http://controller.service.epam.com/",

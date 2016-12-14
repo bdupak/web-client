@@ -1,4 +1,4 @@
-package com.epam.client.wsimport;
+package com.epam.client.soap.wsimport;
 
 import com.epam.client.Client;
 import com.epam.model.Response;
@@ -22,12 +22,14 @@ public class WsImportClient implements Client {
         percentage = ReadValue.getValue("percentage");
     }
 
-    public Double add(){
+    @Override
+    public Double add() {
         response = calculator.add(firstValue, secondValue);
         return response.getResult().getValue();
     }
 
-    public Double subtract(){
+    @Override
+    public Double subtract() {
         response = calculator.subtract(firstValue, secondValue);
         return response.getResult().getValue();
     }

@@ -1,4 +1,4 @@
-package com.epam.client.wsimport;
+package com.epam.client.soap.wsimport;
 
 import com.epam.model.Response;
 

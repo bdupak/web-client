@@ -50,6 +50,21 @@
       <artifactId>soapui</artifactId>
       <version>5.1.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-frontend-jaxws</artifactId>
+      <version>3.1.8</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-client</artifactId>
+      <version>1.19.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-json</artifactId>
+      <version>1.8</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -75,6 +90,18 @@
             <value>expectedFuel=17</value>
           </projectProperties>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.9-RC1</version>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.10-FINAL</version>
+          </dependency>
+        </dependencies>
       </plugin>
     </plugins>
   </build>

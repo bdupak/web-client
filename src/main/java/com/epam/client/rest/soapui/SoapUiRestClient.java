@@ -1,9 +1,8 @@
-package com.epam.client.cxf;
+package com.epam.client.rest.soapui;
 
 import com.epam.client.Client;
 
-public class CxfClient implements Client {
-
+public class SoapUiRestClient implements Client {
     @Override
     public Double add() {
         return null;
